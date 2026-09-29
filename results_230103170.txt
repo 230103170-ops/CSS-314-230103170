@@ -9,3 +9,21 @@ Cores | Time(s) | Observed Speedup | Theoretical Linear
     8 |  0.2847 |             4.37x |               8.00x
    12 |  0.2904 |             4.28x |              12.00x
    16 |  0.3058 |             4.07x |              16.00x
+
+=== TASK 2: FALSE SHARING ===
+
+Trial 1:
+Adjacent: 0.4295s
+Padded: 0.4225s
+
+Trial 2:
+Adjacent: 0.4335s
+Padded: 0.4290s
+
+Trial 3:
+Adjacent: 0.4412s
+Padded: 0.4271s
+
+Median Adjacent: 0.4335s
+Median Padded: 0.4271s
+Slowdown Factor: 1.01x
