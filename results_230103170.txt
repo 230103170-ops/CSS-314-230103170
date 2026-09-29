@@ -27,3 +27,25 @@ Padded: 0.4271s
 Median Adjacent: 0.4335s
 Median Padded: 0.4271s
 Slowdown Factor: 1.01x
+
+=== TASK 3: SYNCHRONIZATION ===
+
+Target Sum: 2000000
+Number of Threads: 4
+
+Unsafe:
+Actual Sum: 2000000
+Time: 0.0726s
+Data Corruption: 0
+
+Locked:
+Actual Sum: 2000000
+Time: 0.1965s
+Data Corruption: 0
+
+Contention Cost Multiplier: 2.71x
+
+Lockless:
+Actual Sum: 2000000
+Time: 0.0276s
+Speedup over Locked: 7.13x
