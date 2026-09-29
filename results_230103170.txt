@@ -49,3 +49,18 @@ Lockless:
 Actual Sum: 2000000
 Time: 0.0276s
 Speedup over Locked: 7.13x
+
+=== TASK 4: MEMORY WALL VS COMPUTE SATURATION ===
+
+Compute-Bound Suite:
+Workers 1: 0.5854s
+Workers 2: 0.6762s
+Workers 4: 0.8036s
+
+Memory-Bound Suite:
+Workers 1: 0.2751s
+Workers 2: 0.3805s
+Workers 4: 0.8673s
+
+Compute Scaling (T4/T1): 1.37x
+Memory Degradation (T4/T1): 3.15x
