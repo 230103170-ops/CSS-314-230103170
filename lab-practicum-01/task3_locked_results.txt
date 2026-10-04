@@ -1,0 +1,15 @@
+Task 3 - Synchronized Shared Counter
+Threads: 10
+Increments per thread: 1000000
+Expected value: 10000000
+
+Run  1 | Actual: 10000000 | Time: 0,1859 s
+Run  2 | Actual: 10000000 | Time: 0,2212 s
+Run  3 | Actual: 10000000 | Time: 0,0189 s
+Run  4 | Actual: 10000000 | Time: 0,0183 s
+Run  5 | Actual: 10000000 | Time: 0,0178 s
+Run  6 | Actual: 10000000 | Time: 0,0192 s
+Run  7 | Actual: 10000000 | Time: 0,0192 s
+Run  8 | Actual: 10000000 | Time: 0,0182 s
+Run  9 | Actual: 10000000 | Time: 0,0207 s
+Run 10 | Actual: 10000000 | Time: 0,0190 s

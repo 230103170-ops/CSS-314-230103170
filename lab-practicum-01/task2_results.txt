@@ -1,0 +1,43 @@
+Task 2 - Multi-Thread Scaling Benchmark
+Total workload: 20,000,000
+
+ 1 workers | Run 1: 0.8421 s
+ 1 workers | Run 2: 0.8316 s
+ 1 workers | Run 3: 0.8165 s
+   Average: 0.8301 s
+
+ 2 workers | Run 1: 0.4850 s
+ 2 workers | Run 2: 0.4321 s
+ 2 workers | Run 3: 0.4671 s
+   Average: 0.4614 s
+
+ 4 workers | Run 1: 0.2563 s
+ 4 workers | Run 2: 0.2403 s
+ 4 workers | Run 3: 0.2557 s
+   Average: 0.2508 s
+
+ 8 workers | Run 1: 0.1994 s
+ 8 workers | Run 2: 0.2007 s
+ 8 workers | Run 3: 0.1931 s
+   Average: 0.1977 s
+
+16 workers | Run 1: 0.2302 s
+16 workers | Run 2: 0.2311 s
+16 workers | Run 3: 0.2243 s
+   Average: 0.2285 s
+
+32 workers | Run 1: 0.3328 s
+32 workers | Run 2: 0.3183 s
+32 workers | Run 3: 0.3154 s
+   Average: 0.3222 s
+
+======================================================================
+FINAL RESULTS
+======================================================================
+Workers | Avg Time (s) | Speedup | Efficiency
+      1 |       0.8301 |    1.00x |    100.00%
+      2 |       0.4614 |    1.80x |     89.95%
+      4 |       0.2508 |    3.31x |     82.75%
+      8 |       0.1977 |    4.20x |     52.48%
+     16 |       0.2285 |    3.63x |     22.70%
+     32 |       0.3222 |    2.58x |      8.05%

@@ -1,0 +1,15 @@
+Task 3 - Unsynchronized Shared Counter
+Threads: 10
+Increments per thread: 1000000
+Expected value: 10000000
+
+Run  1 | Actual: 1299302 | Lost: 8700698 | Time: 0,0232 s
+Run  2 | Actual: 7869337 | Lost: 2130663 | Time: 0,0007 s
+Run  3 | Actual: 10000000 | Lost: 0 | Time: 0,0005 s
+Run  4 | Actual: 10000000 | Lost: 0 | Time: 0,0004 s
+Run  5 | Actual: 10000000 | Lost: 0 | Time: 0,0004 s
+Run  6 | Actual: 10000000 | Lost: 0 | Time: 0,0003 s
+Run  7 | Actual: 10000000 | Lost: 0 | Time: 0,0004 s
+Run  8 | Actual: 10000000 | Lost: 0 | Time: 0,0003 s
+Run  9 | Actual: 10000000 | Lost: 0 | Time: 0,0003 s
+Run 10 | Actual: 10000000 | Lost: 0 | Time: 0,0003 s
