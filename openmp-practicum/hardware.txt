@@ -1,0 +1,8 @@
+CPU: Apple M4
+OS: macOS-26.5.2-arm64-arm-64bit
+NumPy: 2.5.3
+Numba: 0.68.0
+Maximum threads: 10
+Repeats: 3; reported time: median
+Quick validation: False
+Threading layer: omp
