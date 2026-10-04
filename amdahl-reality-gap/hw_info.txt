@@ -1,0 +1,11 @@
+Hardware: MacBook Pro
+CPU: Apple M4
+Architecture: arm64
+Physical CPU cores: 10
+Logical CPU cores: 10
+Performance cores: 4
+Efficiency cores: 6
+L1 Data Cache: 64 KB
+L1 Instruction Cache: 128 KB
+L2 Cache: 4 MB
+OpenMP max threads: 10
