@@ -1,0 +1,46 @@
+{
+  "cpu_model": "Apple M4",
+  "architecture": "arm64",
+  "microarchitecture": null,
+  "microarchitecture_note": "Not directly reported by the queried macOS sysctl keys.",
+  "base_frequency_hz": "",
+  "physical_cores": 10,
+  "logical_threads": 10,
+  "smt_detected": false,
+  "cache_line_bytes": 128,
+  "l1_data_cache_bytes": 65536,
+  "l2_cache_bytes": 4194304,
+  "l3_cache_bytes": "",
+  "memory_bytes": 17179869184,
+  "os": "Darwin",
+  "macos_version": "26.5.2",
+  "kernel_version": "25.5.0",
+  "python_implementation": "CPython",
+  "python_version": "3.12.7",
+  "python_executable": "/opt/anaconda3/bin/python3",
+  "performance_levels": {
+    "0": {
+      "name": "Performance",
+      "physicalcpu": 4,
+      "logicalcpu": 4,
+      "l1dcachesize": 131072,
+      "l1icachesize": 196608,
+      "l2cachesize": 16777216,
+      "cpusperl2": 4
+    },
+    "1": {
+      "name": "Efficiency",
+      "physicalcpu": 6,
+      "logicalcpu": 6,
+      "l1dcachesize": 65536,
+      "l1icachesize": 131072,
+      "l2cachesize": 4194304,
+      "cpusperl2": 6
+    }
+  },
+  "notes": [
+    "Null means the information was not exposed by sysctl.",
+    "Cache sizes may differ between performance and efficiency cores.",
+    "Per-level cache sizes are recorded as reported, not summed."
+  ]
+}
