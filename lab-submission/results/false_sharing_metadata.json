@@ -1,0 +1,10 @@
+{
+  "cache_line_bytes": 128,
+  "start_method": "spawn",
+  "repeats": 3,
+  "iterations_per_worker": 5000000,
+  "shared_array": "RawArray without a global lock",
+  "base_alignment_bytes": 128,
+  "timing_scope": "Parent start-barrier wait through worker joins; includes remaining worker startup and shutdown overhead.",
+  "metric_note": "Each worker performs K iterations, so total work is P*K. T1/TP is weak-scaling efficiency; throughput speedup is P*T1/TP. The assignment Karp-Flatt formula is recorded literally but is not a strong-scaling serial fraction here."
+}
