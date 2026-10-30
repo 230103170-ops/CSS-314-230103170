@@ -1,0 +1,21 @@
+{
+  "timing_scope": "Pool startup, 20 stencil steps, dispatch, synchronization, and pool shutdown. Input allocation and verification excluded.",
+  "amdahl_fit_method": "Least squares on TP/T1 = s + (1-s)/P",
+  "amdahl_serial_fraction_unconstrained": 0.9766947177950027,
+  "amdahl_fraction_in_physical_range": true,
+  "amdahl_asymptotic_speedup": 1.0238613783615125,
+  "gustafson_predictions": {
+    "1": 1.0,
+    "2": 1.0233052822049973,
+    "4": 1.0699158466149918,
+    "8": 1.1631369754349805,
+    "10": 1.209747539844976
+  },
+  "notes": [
+    "If s is outside [0,1], the simple Amdahl model is inadequate.",
+    "Startup overhead and heterogeneous cores affect scaling.",
+    "The PDF weak-scaling formula is recorded literally.",
+    "Measured throughput speedup uses actual cell-update counts.",
+    "Gustafson predictions use the fitted strong-scaling fraction as an illustrative assumption, not a measured weak serial fraction."
+  ]
+}
