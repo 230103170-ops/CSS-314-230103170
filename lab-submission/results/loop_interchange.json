@@ -1,0 +1,26 @@
+{
+  "student_id": "230103170",
+  "N": 1536,
+  "M": 768,
+  "seed": 60767,
+  "implementation": "CPython explicit loops with NumPy arrays",
+  "input_layout": "C-contiguous N x N arrays; top-left M x M block",
+  "runs_per_algorithm": 3,
+  "timing_scope": "output allocation and multiplication",
+  "ijk_times_ns": [
+    55917698291,
+    56387217917,
+    56560216792
+  ],
+  "ikj_times_ns": [
+    69517274709,
+    69830497208,
+    69364204250
+  ],
+  "ijk_median_seconds": 56.387217917,
+  "ikj_median_seconds": 69.517274709,
+  "speedup_ijk_over_ikj": 0.8111252656701151,
+  "max_absolute_difference": 0.0,
+  "absolute_tolerance": 1e-12,
+  "verification_passed": true
+}
