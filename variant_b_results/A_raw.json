@@ -1,0 +1,106 @@
+[
+  {
+    "chunk_size": 1,
+    "p": 1,
+    "total_items": 1000000,
+    "times_seconds": [
+      12.263075042003038,
+      12.08225804200265,
+      11.878876541002683
+    ],
+    "median_seconds": 12.08225804200265,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  },
+  {
+    "chunk_size": 1,
+    "p": 2,
+    "total_items": 1000000,
+    "times_seconds": [
+      10.224259708997124,
+      10.277257290999842,
+      10.128043832999538
+    ],
+    "median_seconds": 10.224259708997124,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  },
+  {
+    "chunk_size": 1,
+    "p": 4,
+    "total_items": 1000000,
+    "times_seconds": [
+      13.260633208999934,
+      12.877680707999389,
+      12.874014874996647
+    ],
+    "median_seconds": 12.877680707999389,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  },
+  {
+    "chunk_size": 1,
+    "p": 8,
+    "total_items": 1000000,
+    "times_seconds": [
+      13.4948808750014,
+      13.716016999998828,
+      13.475026874999458
+    ],
+    "median_seconds": 13.4948808750014,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  },
+  {
+    "chunk_size": 10000,
+    "p": 1,
+    "total_items": 1000000,
+    "times_seconds": [
+      4.532073334001325,
+      4.531607917000656,
+      4.532796708001115
+    ],
+    "median_seconds": 4.532073334001325,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  },
+  {
+    "chunk_size": 10000,
+    "p": 2,
+    "total_items": 1000000,
+    "times_seconds": [
+      2.3032935000010184,
+      2.319305290999182,
+      2.3154622090005432
+    ],
+    "median_seconds": 2.3154622090005432,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  },
+  {
+    "chunk_size": 10000,
+    "p": 4,
+    "total_items": 1000000,
+    "times_seconds": [
+      1.2001128329975472,
+      1.2465256670002418,
+      1.2732458329992369
+    ],
+    "median_seconds": 1.2465256670002418,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  },
+  {
+    "chunk_size": 10000,
+    "p": 8,
+    "total_items": 1000000,
+    "times_seconds": [
+      0.9439836669989745,
+      0.9390700000003562,
+      0.9776150830002734
+    ],
+    "median_seconds": 0.9439836669989745,
+    "checksum": 131434424,
+    "reference_checksum": 131434424
+  }
+]
