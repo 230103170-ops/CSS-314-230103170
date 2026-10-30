@@ -17,6 +17,8 @@ def sysctl(key):
     if result.returncode != 0:
         return None
     value = result.stdout.strip()
+    if not value:
+        return None
     try:
         return int(value)
     except ValueError:
