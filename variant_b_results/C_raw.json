@@ -1,0 +1,62 @@
+[
+  {
+    "p": 1,
+    "total_items": 10000000,
+    "batch_size": 10000,
+    "data_batches": 1000,
+    "sentinel_messages": 1,
+    "times_seconds": [
+      0.3962037919991417,
+      0.38735004200134426,
+      0.3840640840026026
+    ],
+    "median_seconds": 0.38735004200134426,
+    "checksum": 29999994,
+    "expected_checksum": 29999994
+  },
+  {
+    "p": 2,
+    "total_items": 10000000,
+    "batch_size": 10000,
+    "data_batches": 1000,
+    "sentinel_messages": 2,
+    "times_seconds": [
+      0.22060766599679482,
+      0.21949287499955972,
+      0.21928508299970417
+    ],
+    "median_seconds": 0.21949287499955972,
+    "checksum": 29999990,
+    "expected_checksum": 29999990
+  },
+  {
+    "p": 4,
+    "total_items": 10000000,
+    "batch_size": 10000,
+    "data_batches": 1000,
+    "sentinel_messages": 4,
+    "times_seconds": [
+      0.1405247500006226,
+      0.14003083299758146,
+      0.13792154200200457
+    ],
+    "median_seconds": 0.14003083299758146,
+    "checksum": 29999988,
+    "expected_checksum": 29999988
+  },
+  {
+    "p": 8,
+    "total_items": 10000000,
+    "batch_size": 10000,
+    "data_batches": 1000,
+    "sentinel_messages": 8,
+    "times_seconds": [
+      0.14045716699911281,
+      0.14243983300184482,
+      0.14112029200259713
+    ],
+    "median_seconds": 0.14112029200259713,
+    "checksum": 29999952,
+    "expected_checksum": 29999952
+  }
+]

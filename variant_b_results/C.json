@@ -1,0 +1,86 @@
+{
+  "student_id": "230103170",
+  "experiment": "C: Buffered queue",
+  "start_method": "spawn",
+  "repeats": 3,
+  "timing_scope": "Process startup, local computation, queue communication, consumer reduction and worker joins; queue cleanup excluded.",
+  "notes": "Each worker starts its own i % 7 sequence, as in the handout. Expected checksum is calculated for each partition.",
+  "rows": [
+    {
+      "p": 1,
+      "total_items": 10000000,
+      "batch_size": 10000,
+      "data_batches": 1000,
+      "sentinel_messages": 1,
+      "times_seconds": [
+        0.3962037919991417,
+        0.38735004200134426,
+        0.3840640840026026
+      ],
+      "median_seconds": 0.38735004200134426,
+      "checksum": 29999994,
+      "expected_checksum": 29999994,
+      "speedup": 1.0,
+      "efficiency_percent": 100.0,
+      "throughput_items_per_second": 25816442.2761707,
+      "karp_flatt": null
+    },
+    {
+      "p": 2,
+      "total_items": 10000000,
+      "batch_size": 10000,
+      "data_batches": 1000,
+      "sentinel_messages": 2,
+      "times_seconds": [
+        0.22060766599679482,
+        0.21949287499955972,
+        0.21928508299970417
+      ],
+      "median_seconds": 0.21949287499955972,
+      "checksum": 29999990,
+      "expected_checksum": 29999990,
+      "speedup": 1.7647499582941872,
+      "efficiency_percent": 88.23749791470937,
+      "throughput_items_per_second": 45559565.430176534,
+      "karp_flatt": 0.13330502749137674
+    },
+    {
+      "p": 4,
+      "total_items": 10000000,
+      "batch_size": 10000,
+      "data_batches": 1000,
+      "sentinel_messages": 4,
+      "times_seconds": [
+        0.1405247500006226,
+        0.14003083299758146,
+        0.13792154200200457
+      ],
+      "median_seconds": 0.14003083299758146,
+      "checksum": 29999988,
+      "expected_checksum": 29999988,
+      "speedup": 2.7661768034189613,
+      "efficiency_percent": 69.15442008547403,
+      "throughput_items_per_second": 71412843.771148,
+      "karp_flatt": 0.14867972226215476
+    },
+    {
+      "p": 8,
+      "total_items": 10000000,
+      "batch_size": 10000,
+      "data_batches": 1000,
+      "sentinel_messages": 8,
+      "times_seconds": [
+        0.14045716699911281,
+        0.14243983300184482,
+        0.14112029200259713
+      ],
+      "median_seconds": 0.14112029200259713,
+      "checksum": 29999952,
+      "expected_checksum": 29999952,
+      "speedup": 2.744821715605688,
+      "efficiency_percent": 34.310271445071095,
+      "throughput_items_per_second": 70861531.37931406,
+      "karp_flatt": 0.2735112997121602
+    }
+  ]
+}

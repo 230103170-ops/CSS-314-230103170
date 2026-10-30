@@ -1,0 +1,74 @@
+{
+  "student_id": "230103170",
+  "experiment": "B: Unbuffered queue",
+  "start_method": "spawn",
+  "repeats": 3,
+  "timing_scope": "Process startup, queue puts/gets, consumer checksum accumulation and worker joins; queue cleanup excluded.",
+  "notes": "Each worker starts its own i % 7 sequence, as in the handout. Expected checksum is calculated for each partition.",
+  "rows": [
+    {
+      "p": 1,
+      "total_items": 400000,
+      "times_seconds": [
+        2.084604666000814,
+        2.059742500001448,
+        2.0434435839997604
+      ],
+      "median_seconds": 2.059742500001448,
+      "checksum": 1199997,
+      "expected_checksum": 1199997,
+      "speedup": 1.0,
+      "efficiency_percent": 100.0,
+      "throughput_items_per_second": 194199.03216043694,
+      "karp_flatt": null
+    },
+    {
+      "p": 2,
+      "total_items": 400000,
+      "times_seconds": [
+        2.298737542001618,
+        2.573364042000321,
+        2.5420220419982797
+      ],
+      "median_seconds": 2.5420220419982797,
+      "checksum": 1199988,
+      "expected_checksum": 1199988,
+      "speedup": 0.8102771990058307,
+      "efficiency_percent": 40.51385995029153,
+      "throughput_items_per_second": 157355.04782860208,
+      "karp_flatt": 1.4682911014328175
+    },
+    {
+      "p": 4,
+      "total_items": 400000,
+      "times_seconds": [
+        2.6323838749995048,
+        2.9627077909972286,
+        2.6112777500020457
+      ],
+      "median_seconds": 2.6323838749995048,
+      "checksum": 1199980,
+      "expected_checksum": 1199980,
+      "speedup": 0.7824628161429669,
+      "efficiency_percent": 19.561570403574173,
+      "throughput_items_per_second": 151953.52159649407,
+      "karp_flatt": 1.3706880026654813
+    },
+    {
+      "p": 8,
+      "total_items": 400000,
+      "times_seconds": [
+        2.8775582919988665,
+        2.927121917000477,
+        2.893233832997794
+      ],
+      "median_seconds": 2.893233832997794,
+      "checksum": 1199976,
+      "expected_checksum": 1199976,
+      "speedup": 0.7119170516083961,
+      "efficiency_percent": 8.898963145104952,
+      "throughput_items_per_second": 138253.60240086235,
+      "karp_flatt": 1.4624663148057222
+    }
+  ]
+}
