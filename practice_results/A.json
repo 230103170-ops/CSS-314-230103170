@@ -1,0 +1,48 @@
+{
+  "experiment": "A",
+  "parameters": {
+    "total_chunks": 16,
+    "chunk_size": 2000000,
+    "serial_sleep_seconds": 0.4
+  },
+  "timing": "End-to-end, including process startup and shutdown",
+  "start_method": "spawn",
+  "rows": [
+    {
+      "p": 1,
+      "times_seconds": [
+        2.645247208998626,
+        2.66573100000096,
+        2.6366405000007944
+      ],
+      "median_seconds": 2.645247208998626,
+      "speedup": 1.0,
+      "efficiency_percent": 100.0,
+      "karp_flatt": null
+    },
+    {
+      "p": 2,
+      "times_seconds": [
+        1.6212528340001882,
+        1.6303852920027566,
+        1.6508909170006518
+      ],
+      "median_seconds": 1.6303852920027566,
+      "speedup": 1.6224675369520896,
+      "efficiency_percent": 81.12337684760448,
+      "karp_flatt": 0.23269030316448092
+    },
+    {
+      "p": 4,
+      "times_seconds": [
+        1.0466147080005612,
+        1.034409791998769,
+        1.0452879170006781
+      ],
+      "median_seconds": 1.0452879170006781,
+      "speedup": 2.530639803613945,
+      "efficiency_percent": 63.265995090348625,
+      "karp_flatt": 0.19354264934473586
+    }
+  ]
+}

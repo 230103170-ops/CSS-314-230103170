@@ -1,0 +1,9 @@
+{
+  "cpu_model": "Apple M4",
+  "physical_cores": 10,
+  "logical_cores": 10,
+  "cache_line_bytes": 128,
+  "architecture": "arm64",
+  "os": "macOS-26.5.2-arm64-arm-64bit",
+  "python": "3.12.7"
+}
