@@ -1,0 +1,46 @@
+{
+  "experiment": "B",
+  "parameters": {
+    "total_increments": 2000000
+  },
+  "timing": "End-to-end, including process startup and shutdown",
+  "start_method": "spawn",
+  "rows": [
+    {
+      "p": 1,
+      "times_seconds": [
+        2.9562878329998057,
+        2.980033750001894,
+        2.9812212079996243
+      ],
+      "median_seconds": 2.980033750001894,
+      "speedup": 1.0,
+      "efficiency_percent": 100.0,
+      "karp_flatt": null
+    },
+    {
+      "p": 2,
+      "times_seconds": [
+        7.573607041998912,
+        9.274575874998845,
+        9.349621375000424
+      ],
+      "median_seconds": 9.274575874998845,
+      "speedup": 0.32131213223831273,
+      "efficiency_percent": 16.065606611915637,
+      "karp_flatt": 5.224477071773399
+    },
+    {
+      "p": 4,
+      "times_seconds": [
+        9.030208416999812,
+        9.174531624998053,
+        8.585206957999617
+      ],
+      "median_seconds": 9.030208416999812,
+      "speedup": 0.3300071950046949,
+      "efficiency_percent": 8.250179875117372,
+      "karp_flatt": 3.706982615882151
+    }
+  ]
+}
